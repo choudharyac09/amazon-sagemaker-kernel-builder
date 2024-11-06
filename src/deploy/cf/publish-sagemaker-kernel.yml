@@ -101,7 +101,7 @@ Resources:
       Handler: publish.lambda_handler
       Timeout: 900
       MemorySize: 128
-      Runtime: python3.8
+      Runtime: python3.12
       Code:      
         S3Bucket: !If
           - UseDefaultWorkspace
